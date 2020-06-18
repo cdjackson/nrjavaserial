@@ -371,6 +371,9 @@ printf("%8li sec : %8li usec\n", enow.tv_sec - snow.tv_sec, enow.tv_sec - snow.t
 #	define LOCKDIR USER_LOCK_DIRECTORY
 #endif /* USER_LOCK_DIRECTORY */
 
+#define LOCKDIR "/var/degwlock"
+
+
 #ifdef DISABLE_LOCKFILES
 #undef UUCP
 #undef FHS
